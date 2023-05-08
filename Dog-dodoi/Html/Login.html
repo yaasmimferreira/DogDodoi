@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/Style.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <Header id="cabecalho">
+        <figure>
+            <img src="../img/logo.png" alt="logo">
+        </figure>
+
+        <nav>
+            <a href="Index.html">Sair</a>
+        </nav>
+    </Header>
+    <div class="centro">
+        <h1 class="font button alinhar tamanho">Por favor, inscreva-se</h1>
+
+        <main id="formulário">
+            <form>
+                <div>
+                    <label for="E-mail">E-mail</label>
+                    <input type="email" placeholder="" id="email" required minlength="6" required maxlength="30">
+                </div>
+                
+                <div>
+                    <label for="Senha">Senha</label>
+                    <input type="password" placeholder="" id="password" required minlength="8" required maxlength="20">
+                </div>
+
+                <div class="espacamento"  id="linkdois" >
+                    <a href="Dashboard.html"><button type="button" class="btn botao "><strong>Logar</strong></button></a>
+                </div>
+
+                <div  class="espacamento" id="link">
+                    <a href="Registro.html"><button type="button" class="btn btn-1 botao"><strong>Ainda não cadastrado? Cadastra-se</strong></button></a>
+                </div>
+            </form>
+        </main>
+    </div>
+</body>
+</html>

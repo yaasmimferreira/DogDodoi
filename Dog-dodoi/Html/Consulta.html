@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/Style.css">
+    <title>Consulta</title>
+</head>
+<body>
+    <header id="cabecalho">
+        <figure>
+            <img src="../img/logo.png" alt="logo">
+        </figure>
+
+        <nav>
+            <a class="button" href="Index.html">Sair</a>
+        </nav>
+    </header>
+
+    <main id="formulário">
+        <form class="alinhar botao space">
+            <h1 class="font tamanho">Registrar uma consulta</h1>
+            <div id="terceiro">
+                <div>
+                    <label  for="Nome">Nome completo do cliente</label>
+                    <input type="text" placeholder="" id="nome" required minlength="3" required maxlength="20">
+                </div>
+                
+                <div>
+                    <label for="Data">Data da consulta</label>
+                    <input type="date" placeholder="" id="Data" required minlength="6" required maxlength="6">
+                </div>
+                
+                <div>
+                    <label for="hora">Hora da consulta</label>
+                    <input type="time" placeholder="" id="hora" required minlength="6" required maxlength="6">
+                </div>
+            </div>
+            
+                <div>
+                    <label for="text">Observações adicionais</label>
+                    <textarea cols="30" rows="10" required></textarea>
+                </div>
+    
+                <div id="but">
+                    <div class="espacamento"  id="linkdois" >
+                        <a href="Dashboard.html"> <button id="verde" type="button"><strong>Salvar</strong></button></a>
+                    </div>
+    
+                    <div class="espacamento">
+                        <button id="vermelho" type="reset"><strong>Cancelar</strong></button>
+                    </div>
+                </div>
+        </form>
+       </main>
+</body>
+</html>

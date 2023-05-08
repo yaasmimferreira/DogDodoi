@@ -1,0 +1,35 @@
+@media(max-width: 880px){
+#corpo #bemvindo{
+display: block;
+}
+
+ @media(max-width: 670px){
+} #corpo #beneficios #itens{
+ display: block;
+}
+
+ @media(max-width: 670px){
+} #corpo #beneficios #flex{
+ display: block;
+}
+
+@media(max-width: 320px){
+} #corpo #banner h1{
+font-size: 100%;
+align-items: center;
+justify-self: center;
+}
+
+@media(max-width: 670px){
+} #corpo #benner h1{
+align-items: center;
+justify-self: center;
+}
+
+@media(max-width: 970px){
+} .cachorro{
+background-image: none;
+}
+
+
+}
